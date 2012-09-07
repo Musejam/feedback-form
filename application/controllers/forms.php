@@ -11,7 +11,7 @@ class Forms_Controller extends Base_Controller{
 
 	public function post_success()
 	{
-		$validation = Form::validate(Input::all());
+		$validation = form::validate(Input::all());
 		
 		if($validation->fails())
 		{
@@ -19,7 +19,7 @@ class Forms_Controller extends Base_Controller{
 		}
 		else
 		{
-			Form::create(array(
+			form::create(array(
 				'ctype' => Input::get('radio'),
 				'name' => Input::get('name'),
 				'url' => Input::get('url'),
@@ -36,9 +36,8 @@ class Forms_Controller extends Base_Controller{
 	public function get_show(){
 		$per_page=5;
 		
-		$pg=Form::paginate($per_page);
+		$pg=form::paginate($per_page);
 		
 		return View::make('forms.show')->with('title','Previous Recommandations')->with('show',$pg);
 	}
 }
-?>

@@ -1,6 +1,6 @@
 <?php
 
-class Form extends Eloquent	{
+class form extends Eloquent	{
 
 	public static $table='form';
 
