@@ -4,7 +4,7 @@
 <table class='table table-striped'>
 <thead>
 <tr>
-	<th>Content</th>
+	<th>Content Type</th>
 	<th>Name</th>
 	<th>Url</th>
 	<th>Genre</th>
@@ -15,10 +15,10 @@
 @foreach($show->results as $frm)
 <tbody>
 <tr>
-	<td>{{$frm->ctype}}</td>
+	<td>{{$frm->content_type}}</td>
 	<td>{{$frm->name}}</td>
 	<td>{{$frm->url}}</td>
-	<td>{{$frm->sgenre}}</td>
+	<td>{{$frm->genre}}</td>
 	<td>{{$frm->artist}}</td>
 	<td>{{$frm->country}}</td>
 </tr>

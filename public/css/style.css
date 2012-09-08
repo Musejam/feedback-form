@@ -49,6 +49,11 @@ a:link{
 	margin:0px auto auto auto;
 	clear: both;
 }
+#validation_container{
+	margin-right: auto;
+	margin-left: 500px;
+	color: red;
+}
 #main_container {
 	height: auto;
 	width: 600px;
