@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost/musejam/public',
+	'url' => 'http://localhost/mj/public',
 
 	/*
 	|--------------------------------------------------------------------------

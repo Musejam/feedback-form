@@ -1,5 +1,5 @@
 <?php
-	class Recommend extends Eloquent	
+	class Recommendation extends Eloquent	
 	{
 
 		public static $table='form';
