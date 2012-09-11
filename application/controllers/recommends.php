@@ -58,4 +58,3 @@ class Recommends_Controller extends Base_Controller
 		return View::make('recommends.show')->with('title','Previous Recommandations')->with('show',$pg);
 	}
 }
-?>
