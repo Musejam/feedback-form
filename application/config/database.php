@@ -72,7 +72,7 @@ return array(
 			'host'     => 'localhost',
 			'database' => 'rform',
 			'username' => 'root',
-			'password' => 'charizard',
+			'password' => 'tarun',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),

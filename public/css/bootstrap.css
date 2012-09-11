@@ -5622,3 +5622,13 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+#logo {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 298px;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+

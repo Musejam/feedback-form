@@ -36,9 +36,9 @@ Route::get('/', function()
 {
 	return View::make('home.index');
 });
-Route::get('forms', array('as'=>'forms' , 'uses'=>'forms@index'));
-Route::get('forms/show', array('as'=>'show' , 'uses'=>'forms@show'));
-Route::post('forms/success',array('uses'=>'forms@success'));
+Route::get('recommends', array('as'=>'recommends' , 'uses'=>'recommends@index'));
+Route::get('recommends/show', array('as'=>'show' , 'uses'=>'recommends@show'));
+Route::post('recommends/success',array('uses'=>'recommends@success'));
 
 /*
 |--------------------------------------------------------------------------

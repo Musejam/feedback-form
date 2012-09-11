@@ -2,6 +2,7 @@
 @section('content')
 
 <table class='table table-striped'>
+
 <thead>
 <tr>
 	<th>Content Type</th>
@@ -12,6 +13,7 @@
 	<th>Country</th>
 </tr>
 </thead>
+
 @foreach($show->results as $frm)
 <tbody>
 <tr>
@@ -24,8 +26,11 @@
 </tr>
 </tbody>
 @endforeach
+
 </table>
+
 <div class="links">
 {{$show->links()}}
 </div>
+
 @endsection

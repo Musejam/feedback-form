@@ -10,7 +10,7 @@
 			</ul>
 		@endif
 	</div>
-  	<form method="POST" action="{{ URL::to('forms/success') }}" id="form" enctype="multipart/form-data">
+  	<form method="POST" action="{{ URL::to('recommends/success') }}" id="recommends" enctype="multipart/form-data">
 
 		<div id="main_container">
 		<div id="header">
@@ -59,8 +59,8 @@
 	    	{{Form::label('country','Both')}}
 	    </div>
 	  	</div>
-	  	<div id="row6_cont">  <button type="button" onclick="$('#form').submit();" class="btn">Add Recommandation</a></div>
+	  	<div id="row6_cont">  <button type="button" onclick="$('#recommends').submit();" class="btn">Add Recommandation</a></div>
 	  	<div id="row7_cont"> {{HTML::link_to_route('show',"Previous Recommandations")}} </div>
 		</div>
-	  {{Form::close()}}
+	 {{Form::close()}}
 @endsection

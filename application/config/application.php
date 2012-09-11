@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'url' => '',
+	'url' => 'http://localhost/musejam/public',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -53,7 +53,7 @@ return array(
 	|
 	*/
 
-	'key' => 'jqRZyyzd596mfxOE5tSmQBCfefUJkPms',
+	'key' => 'WV4lyKRu3oJveD1t2Lk1ypLwoj0jiKk4',
 
 	/*
 	|--------------------------------------------------------------------------

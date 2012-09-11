@@ -11,12 +11,12 @@ class Create_Form_Table {
 	{
 		Schema::create('form',function($table){
 		 	$table->increments('id');
-		 	$table->string('ctype')->nullable();
+		 	$table->string('content_type')->nullable();
 		 	$table->string('name')->nullable();
 		 	$table->text('url')->nullable();
-		 	$table->string('sgenre')->nullable();
+		 	$table->string('genre')->nullable();
 		 	$table->string('artist')->nullable();
-		 	$table->string('fname')->nullable();
+		 	$table->string('filename')->nullable();
 		 	$table->string('country')->nullable();
 		 	$table->timestamps();
 		 });
